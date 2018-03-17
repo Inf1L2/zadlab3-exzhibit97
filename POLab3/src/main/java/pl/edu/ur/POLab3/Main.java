@@ -4,11 +4,8 @@
  * and open the template in the editor.
  */
 package pl.edu.ur.POLab3;
+import java.util.Scanner;
 
-/**
- *
- * @author Asia
- */
 public class Main {
 
     /**
@@ -19,7 +16,23 @@ public class Main {
         // TODO 2.2
         // TODO 3.3, 3.4
         
-        
+        int menu;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("wybierz zadanie");
+        menu = scanner.nextInt();
+        switch(menu) {
+            
+            case 1:
+                System.out.println("Zastosowanie operatorow przesuneic bitowych");
+                System.out.println("Podaj liczbe");
+                int x = scanner.nextInt();
+                System.out.println(Integer.toString(x,2));
+                
+            break;
+                
+            
+        }
     }
-    
 }
+    
+
