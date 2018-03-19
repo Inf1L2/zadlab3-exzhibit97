@@ -4,8 +4,11 @@
  * and open the template in the editor.
  */
 package pl.edu.ur.POLab3;
-import java.util.Scanner;
 
+/**
+ *
+ * @author Asia
+ */
 public class Main {
     
     public static int potegowanie(int p, int w) {
@@ -32,6 +35,7 @@ public class Main {
         // TODO 2.2
         // TODO 3.3, 3.4
         
+<<<<<<< HEAD
         int menu;
         Scanner scanner = new Scanner(System.in);
         System.out.println("wybierz zadanie");
@@ -155,5 +159,9 @@ public class Main {
     }
 }
 
+=======
+        
+    }
+>>>>>>> parent of 5d719fd... Merge origin/master
     
-
+}
